@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", function () {
     const placeholder = document.getElementById("menu-placeholder");
   
-    fetch("/Clube_Livro1/components/menu.html")
+    fetch("components/menu.html")
       .then(response => response.text())
       .then(data => {
         placeholder.innerHTML = data;

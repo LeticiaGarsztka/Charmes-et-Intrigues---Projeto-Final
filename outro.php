@@ -7,7 +7,7 @@
     <base href="http://localhost/Clube_Livro1_modificado2/Clube_Livro1/" />
   </head>
   <body>
-    <div id="menu-placeholder"></div>
+    <div id="menu-placeholder"><?php require_once('components/menu.php'); ?></div>
 
     <main class="apresentacao-site">
 
@@ -23,6 +23,5 @@
         e "entrigas" que, de certa forma, também nos atrai às longas maratonas das séries e dos filmes e às madrugadas em claro para devorar os livros.
       </p>
     </main>
-    <script src="js/menuLoader.js"></script>
   </body>
 </html>
