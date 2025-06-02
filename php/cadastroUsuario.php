@@ -40,5 +40,5 @@ $stmt->bind_param("ssss", $nome, $sobrenome, $data_nascimento, $senha_salt); // 
 $stmt->execute(); // executa a query
 
 // redirect para a index
-header('Location: /Clube_Livro1/home.html');
+header('Location: /CharmesEtIntrigues/home.html');
 ?>
