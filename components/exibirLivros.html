@@ -11,25 +11,26 @@
         <link rel="icon" type="image/png" href="../imagens/logo_h_transparente_fundo_branco.png">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"> 
         <base href="http://localhost/CharmesEtIntrigues/" />
+        <title>Exibir Livros</title>
+        <link rel="icon" type="image/png" href="./imagens/logo_h_transparente_fundo_escuro.svg">
     
     </head>
     <body>
 
-    <div class="resultado-pesquisa" id="results-section">
-        
-    </div>    
+    
     <div class="input-group">
         <div class="input-icon">
             <i class="fa-solid fa-magnifying-glass"></i>
         </div>
         <input id="search" type="text" class="input-field" placeholder="Pesquisar">
     </div>
-
+    <br/>
+    <div class="resultado-pesquisa" id="results-section"></div>    
     <br/>
 
         <div id="menu-placeholder"></div>
-        <div class="elementos-login">
-            <h2 class="escrita-login">Livros Cadastrados</h2>
+        <div class="elementos-exibir">
+            <h2 class="escrita-exibir">Livros Cadastrados</h2>
             <div id="livros"></div>
             <button onclick="location.href='components/cadastroLivro.html'">Cadastrar Novo Livro</button>
         </div>

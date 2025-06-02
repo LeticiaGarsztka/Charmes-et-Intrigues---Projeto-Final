@@ -236,4 +236,36 @@ button a:hover {
     padding: 20px;
 }
 
+.intro-home{
+    text-align: center;
+    color: #cb6ce6;
+    font-family: Verdana, sans-serif;
+    font-size: 18px;
+    padding: 20px;  
+    width: 1000px;          /* Define a largura fixa */
+    margin: 0 auto; 
+}
 
+.elementos-exibir{
+    background: white; /* Definindo fundo branco */
+    padding: 20px; /* Adicionando espaço interno */
+    border-radius: 10px; /* Bordas arredondadas */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Sombras para dar profundidade */
+    border: 2px solid #cb6ce6; /* Borda roxa */
+    text-align: center; /* Centralizando o texto dentro da caixa */
+    display: flex; /* Usando flexbox para o layout */
+    flex-direction: column; /* Organizamos os itens na vertical */
+    align-items: center; /* Alinhando os itens no centro horizontal */
+    justify-content: center; /* Alinhando os itens no centro vertical */
+    width: 800px;          /* Define a largura fixa */
+    margin: 0 auto;
+}
+
+.elementos-exibir input,
+.elementos-exibir button {
+    margin: 6px 7px; /* Adicionando espaçamento entre os elementos */
+}
+
+h2{
+    color: #cb6ce6;
+}
