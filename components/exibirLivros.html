@@ -2,16 +2,15 @@
 <html lang="pt-BR">
     <head>
         <meta charset="UTF-8">
-        <script src="js/pesquisa.js" defer></script>
+        <script src="/CharmesEtIntrigues/js/pesquisa.js" defer></script>
 
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
         <link rel="stylesheet" type="text/css" href="pesquisa.css">
         
         <link rel="stylesheet" type="text/css" href="../styles.css">
-        <link rel="icon" type="image/png" href="imagens/logo_Browser.png">
+        <link rel="icon" type="image/png" href="../imagens/logo_h_transparente_fundo_branco.png">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"> 
         <base href="http://localhost/CharmesEtIntrigues/" />
-
     
     </head>
     <body>
@@ -24,16 +23,16 @@
         <input id="search" type="text" class="input-field" placeholder="Pesquisar">
     </div>
 
-    <ul id="results"></ul>
+    <br/>
 
         <div id="menu-placeholder"></div>
         <div class="elementos-login">
             <h2 class="escrita-login">Livros Cadastrados</h2>
             <div id="livros"></div>
-            <button onclick="location.href='cadastroLivro.html'">Cadastrar Novo Livro</button>
+            <button onclick="location.href='components/cadastroLivro.html'">Cadastrar Novo Livro</button>
         </div>
 
-        <script src="js/exibirLivros.js"></script>
-        <script src="js/menuLoader.js"></script>
+        <script src="./js/exibirLivros.js"></script>
+        <script src="./js/menuLoader.js"></script>
     </body>
 </html>
