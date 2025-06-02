@@ -1,5 +1,5 @@
-const input = document.querySelector("#barra-pesquisa");
-const results = document.querySelector("#resultados-pesquisa"); // Crie esse container no HTML
+const input = document.querySelector("#search");
+const results = document.querySelector("#results-section"); // Crie esse container no HTML
 
 let items = [];
 
@@ -13,8 +13,9 @@ function normalize(str) {
 
 async function fetchItems() {
     try {
-        const response = await fetch("../php/pesquisa.php");
+        const response = await fetch("/CharmesEtIntrigues/php/pesquisa.php");
         items = await response.json();
+        console.log(items);
     } catch (error) {
         console.error("Erro ao buscar itens:", error);
     }
